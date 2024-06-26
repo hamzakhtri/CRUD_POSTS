@@ -162,7 +162,7 @@ export default class Home extends Component {
                                 <p className='text-lg text-gray-600'>Manage Your News Posts Efficiently</p>
                             </div>
                             <div className="flex justify-center md:justify-end items-center">
-                                <button onClick={this.openModal} className="bg-blue-500 text-white px-4 py-2 rounded flex items-center">
+                                <button onClick={this.openModal} className="bg-blue-500 hover:bg-blue-600 duration-300 text-white px-4 py-2 rounded flex items-center">
                                     <FaPlus className="mr-2" /> Create New
                                 </button>
                             </div>

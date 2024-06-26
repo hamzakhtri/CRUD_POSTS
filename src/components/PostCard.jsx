@@ -2,7 +2,7 @@ import React from 'react';
 
 const PostCard = ({ post, handleEdit, handleDelete }) => {
     return (
-        <div className='border-2 border-gray-200 bg-gray-50 shadow-lg rounded-xl p-3 flex flex-col justify-between'>
+        <div className='border-2 border-gray-200 bg-gray-50  shadow-lg rounded-xl p-3 flex flex-col justify-between'>
             <div>
                 <h3 className='text-[16px] font-medium my-3'>{post.title}</h3>
                 <p className='text-[14px] my-3 leading-[1.4]'>{post.body}</p>
